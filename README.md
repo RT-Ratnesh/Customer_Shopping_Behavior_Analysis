@@ -153,7 +153,7 @@ These insights translate directly into **actionable recommendations** for market
 
 ---
 
-## 📜 License
+## License
 
 MIT
 
