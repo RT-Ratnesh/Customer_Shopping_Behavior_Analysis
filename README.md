@@ -153,10 +153,8 @@ These insights translate directly into **actionable recommendations** for market
 
 ---
 
-## How to Run This Project
+## 📜 License
 
-### 1. Clone the Repository
+MIT
 
-```bash
-git clone https://github.com/RT-Ratnesh/Customer_Shopping_Behavior_Analysis.git
-cd Customer_Shopping_Behavior_Analysis
+
