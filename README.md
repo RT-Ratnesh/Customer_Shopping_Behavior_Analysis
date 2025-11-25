@@ -14,13 +14,13 @@ This project simulates a real-world analytics workflow for a retail business:
 - Summarize **key insights and recommendations** in a report and presentation
 
 It is designed to showcase practical skills that recruiters look for in data roles:
-**data cleaning, feature engineering, SQL analysis, dashboarding, and storytelling.** :contentReference[oaicite:0]{index=0}  
+**data cleaning, feature engineering, SQL analysis, dashboarding, and storytelling.** 
 
 ---
 
 ## Dataset
 
-**File:** `customer_shopping_behavior.csv` :contentReference[oaicite:1]{index=1}  
+**File:** `customer_shopping_behavior.csv` 
 
 The dataset contains around **3,900 retail transactions** and includes:
 
@@ -34,7 +34,7 @@ This dataset is ideal for answering questions such as:
 - Which customer segments generate the most revenue?
 - How do discounts and promo codes influence spending?
 - Which products and categories perform best?
-- How do subscribers differ from non-subscribers in terms of value? :contentReference[oaicite:2]{index=2}  
+- How do subscribers differ from non-subscribers in terms of value? 
 
 ---
 
@@ -43,15 +43,15 @@ This dataset is ideal for answering questions such as:
 This project uses:
 
 - **Python (Jupyter Notebook)** – data loading, cleaning, feature engineering, EDA  
-  - Main file: `customer_shopping_behavior_analysis.ipynb` :contentReference[oaicite:3]{index=3}  
+  - Main file: `customer_shopping_behavior_analysis.ipynb` 
 - **SQL (any relational database – MySQL/PostgreSQL/SQL Server)** – business analysis  
-  - Main file: `customer_behavior_business_sql_queries.sql` :contentReference[oaicite:4]{index=4}  
+  - Main file: `customer_behavior_business_sql_queries.sql` 
 - **Power BI** – interactive dashboard  
-  - Main file: `customer_behavior_dashboard.pbix` :contentReference[oaicite:5]{index=5}  
+  - Main file: `customer_behavior_dashboard.pbix` 
 - **Documentation** – business and insight communication  
   - `Business Problem Document.pdf`  
   - `Customer Shopping Behavior Analysis.pdf`  
-  - `Customer-Shopping-Behavior-Analysis.pptx` :contentReference[oaicite:6]{index=6}  
+  - `Customer-Shopping-Behavior-Analysis.pptx`
 
 ---
 
@@ -66,7 +66,7 @@ In `customer_shopping_behavior_analysis.ipynb` you will find:
 - Handling missing review ratings and other data quality issues
 - Standardizing column names and creating derived fields such as:
   - Age groups (e.g., young adults, adults, middle-aged, seniors)
-  - Purchase frequency and customer segment tags (new/returning/loyal) :contentReference[oaicite:7]{index=7}  
+  - Purchase frequency and customer segment tags (new/returning/loyal) 
 
 The final cleaned dataframe is prepared for loading into SQL.
 
@@ -80,13 +80,13 @@ Steps (high level):
 
 1. Create a new database (e.g., `customer_analytics`)
 2. Create a table schema compatible with the CSV columns
-3. Use the notebook to insert/load data into the table :contentReference[oaicite:8]{index=8}  
+3. Use the notebook to insert/load data into the table 
 
 ---
 
 ### 3. SQL Business Analysis
 
-The file `customer_behavior_business_sql_queries.sql` contains queries that answer real business questions, such as: :contentReference[oaicite:9]{index=9}  
+The file `customer_behavior_business_sql_queries.sql` contains queries that answer real business questions, such as:
 
 - **Revenue by gender**  
 - **High-spending customers who still use discounts**
@@ -104,7 +104,7 @@ These queries demonstrate how SQL is used to support strategic decisions in mark
 
 ### 4. Power BI Dashboard
 
-The dashboard in `customer_behavior_dashboard.pbix` brings together the cleaned data and SQL outputs into an **executive-friendly view**. :contentReference[oaicite:10]{index=10}  
+The dashboard in `customer_behavior_dashboard.pbix` brings together the cleaned data and SQL outputs into an **executive-friendly view**. 
 
 Typical views include:
 
@@ -132,7 +132,7 @@ Typical views include:
 
 ## Key Results & Insights (Summary)
 
-The exact numbers will depend on your runs, but the analysis typically highlights patterns such as: :contentReference[oaicite:11]{index=11}  
+The exact numbers will depend on your runs, but the analysis typically highlights patterns such as:
 
 - **High-value segments**  
   - Certain age groups (e.g., young adults/adults) contribute a large share of revenue  
